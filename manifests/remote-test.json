@@ -25,6 +25,10 @@
    "branch": "remote-test-2026-10-07"
   },
   {
+   "name": "chronos",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
    "name": "Codeception",
    "branch": "remote-test-2026-10-07"
   },

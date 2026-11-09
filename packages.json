@@ -1438,6 +1438,51 @@
                         "Cake\\Chronos\\Test\\": "tests/"
                     }
                 }
+            },
+            "dev-remote-test-2026-11-09": {
+                "name": "cakephp/chronos",
+                "version": "dev-remote-test-2026-11-09",
+                "version_normalized": "dev-remote-test-2026-11-09",
+                "type": "library",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Training-Datasmith/chronos.git",
+                    "reference": "d9bca928b0e323f0230d8caa9749decc62f14f48"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Training-Datasmith/chronos/zipball/d9bca928b0e323f0230d8caa9749decc62f14f48",
+                    "reference": "d9bca928b0e323f0230d8caa9749decc62f14f48",
+                    "shasum": ""
+                },
+                "description": "A simple API extension for DateTime.",
+                "license": "MIT",
+                "require": {
+                    "php": ">=8.1",
+                    "psr/clock": "^1.0"
+                },
+                "require-dev": {
+                    "cakephp/cakephp-codesniffer": "^5.0",
+                    "phpunit/phpunit": "^10.5.58 || ^11.5.3 || ^12.1.3"
+                },
+                "provide": {
+                    "psr/clock-implementation": "1.0"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Cake\\Chronos\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Cake\\Chronos\\Test\\": "tests/"
+                    }
+                },
+                "extra": {
+                    "branch-alias": {
+                        "dev-remote-test-2026-11-09": "3.5.x-dev"
+                    }
+                }
             }
         },
         "cebe/markdown": {
@@ -1641,12 +1686,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/Codeception.git",
-                    "reference": "0f4d7829f9d306ca14012e9a67c6f3ff33fcc15e"
+                    "reference": "a172f822d84b615da3dea2849741ea10781c666b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/Codeception/zipball/0f4d7829f9d306ca14012e9a67c6f3ff33fcc15e",
-                    "reference": "0f4d7829f9d306ca14012e9a67c6f3ff33fcc15e",
+                    "url": "https://api.github.com/repos/Training-Datasmith/Codeception/zipball/a172f822d84b615da3dea2849741ea10781c666b",
+                    "reference": "a172f822d84b615da3dea2849741ea10781c666b",
                     "shasum": ""
                 },
                 "description": "All-in-one PHP Testing Framework",
@@ -1666,32 +1711,37 @@
                     "psy/psysh": "^0.11.2 | ^0.12",
                     "sebastian/comparator": "^4.0.5 | ^5.0 | ^6.0 | ^7.0 | ^8.0",
                     "sebastian/diff": "^4.0.3 | ^5.0 | ^6.0 | ^7.0 | ^8.0",
-                    "symfony/console": ">=5.4.24 <9.0",
-                    "symfony/css-selector": ">=5.4.24 <9.0",
-                    "symfony/event-dispatcher": ">=5.4.24 <9.0",
-                    "symfony/finder": ">=5.4.24 <9.0",
-                    "symfony/var-dumper": ">=5.4.24 <9.0",
-                    "symfony/yaml": ">=5.4.24 <9.0"
+                    "symfony/console": ">=5.4.24 <8.0",
+                    "symfony/css-selector": ">=5.4.24 <8.0",
+                    "symfony/event-dispatcher": ">=5.4.24 <8.0",
+                    "symfony/finder": ">=5.4.24 <8.0",
+                    "symfony/var-dumper": ">=5.4.24 <8.0",
+                    "symfony/yaml": ">=5.4.24 <8.0"
                 },
                 "require-dev": {
                     "ext-simplexml": "*",
                     "codeception/lib-innerbrowser": "*@dev",
                     "codeception/lib-web": "*@dev",
-                    "codeception/module-asserts": "dev-master",
+                    "codeception/module-asserts": "dev-remote-test-2026-10-07 as 3.3.0",
                     "codeception/module-cli": "*@dev",
-                    "codeception/module-db": "*@dev",
-                    "codeception/module-filesystem": "*@dev",
-                    "codeception/module-phpbrowser": "*@dev",
-                    "codeception/module-webdriver": "*@dev",
+                    "codeception/module-db": "dev-remote-test-2026-10-07 as 3.2.2",
+                    "codeception/module-filesystem": "dev-remote-test-2026-10-07 as 3.0.2",
+                    "codeception/module-phpbrowser": "dev-remote-test-2026-10-07 as 4.0.0",
+                    "codeception/module-webdriver": "dev-remote-test-2026-10-07 as 4.0.5",
                     "codeception/util-universalframework": "*@dev",
                     "doctrine/orm": "^3.3",
                     "jetbrains/phpstorm-attributes": "^1.0",
                     "laravel-zero/phar-updater": "^1.4",
                     "php-webdriver/webdriver": "^1.15",
+                    "psr/http-client": "dev-remote-test-2026-10-07 as 1.0.3",
+                    "psr/http-factory": "dev-remote-test-2026-10-07 as 1.1.0",
+                    "psr/http-message": "dev-remote-test-2026-10-07 as 2.0.0",
                     "stecman/symfony-console-completion": "^0.14 || ^0.15",
-                    "symfony/dotenv": ">=5.4.24 <9.0",
-                    "symfony/error-handler": ">=5.4.24 <9.0",
-                    "symfony/process": ">=5.4.24 <9.0",
+                    "symfony/dotenv": ">=5.4.24 <8.0",
+                    "symfony/error-handler": ">=5.4.24 <8.0",
+                    "symfony/polyfill-ctype": "dev-remote-test-2026-10-07 as 1.33.0",
+                    "symfony/polyfill-mbstring": "dev-remote-test-2026-10-07 as 1.33.0",
+                    "symfony/process": ">=5.4.24 <8.0",
                     "vlucas/phpdotenv": "^5.1"
                 },
                 "conflict": {
@@ -1726,7 +1776,8 @@
                 "autoload-dev": {
                     "psr-4": {
                         "CodeceptionPhpunit\\Support\\": "tests/phpunit/Support/",
-                        "CodeceptionPhpunit\\Tests\\": "tests/phpunit/"
+                        "CodeceptionPhpunit\\Tests\\": "tests/phpunit/",
+                        "CodeceptionSystem\\Tests\\": "tests/system/"
                     },
                     "classmap": [
                         "tests/cli/_steps",
@@ -1748,7 +1799,8 @@
                 ],
                 "extra": {
                     "branch-alias": {
-                        "dev-main": "5.3.x-dev"
+                        "dev-main": "5.3.x-dev",
+                        "dev-remote-test-2026-10-07": "5.3.x-dev"
                     }
                 },
                 "minimum-stability": "RC"
@@ -3961,12 +4013,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/core.git",
-                    "reference": "6c61ad32a1a63028e8a08c7b1161e875d2253677"
+                    "reference": "c78c1977007c1a583458880cbd9d8799c127f4e7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/core/zipball/6c61ad32a1a63028e8a08c7b1161e875d2253677",
-                    "reference": "6c61ad32a1a63028e8a08c7b1161e875d2253677",
+                    "url": "https://api.github.com/repos/Training-Datasmith/core/zipball/c78c1977007c1a583458880cbd9d8799c127f4e7",
+                    "reference": "c78c1977007c1a583458880cbd9d8799c127f4e7",
                     "shasum": ""
                 },
                 "description": "FuelPHP 1.x Core",
@@ -4125,12 +4177,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/fuel.git",
-                    "reference": "3e576e9610d4243a0ff24e105d5961f30085271c"
+                    "reference": "98a476178f6170592c5e7f39722405b1134e6e58"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/fuel/zipball/3e576e9610d4243a0ff24e105d5961f30085271c",
-                    "reference": "3e576e9610d4243a0ff24e105d5961f30085271c",
+                    "url": "https://api.github.com/repos/Training-Datasmith/fuel/zipball/98a476178f6170592c5e7f39722405b1134e6e58",
+                    "reference": "98a476178f6170592c5e7f39722405b1134e6e58",
                     "shasum": ""
                 },
                 "description": "FuelPHP is a simple, flexible, community driven PHP 8.2+ application skeleton, based on the best ideas of other frameworks, with a fresh start!",
@@ -4149,7 +4201,6 @@
                 },
                 "require-dev": {
                     "fuel/docs": "dev-remote-test-2026-10-07 as 1.8.99",
-                    "erusev/parsedown": "1.7.4",
                     "mustache/mustache": "3.2.0",
                     "phpunit/phpunit": "11.5.57"
                 },

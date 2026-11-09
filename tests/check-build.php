@@ -308,6 +308,8 @@ try {
     assert_true($code === 0, 'legacy DATASMITH manifest builds');
     $legacy_data = json_decode((string) file_get_contents($legacy_output), true, 512, JSON_THROW_ON_ERROR);
     assert_true(isset($legacy_data['packages']['fixture/alpha']['dev-remote-test-2026-10-07']), 'legacy manifest row built');
+
+    verify_chronos_index_entry($repo_root);
 } catch (Throwable $e) {
     $failures[] = 'fatal: ' . $e->getMessage();
 }
@@ -327,6 +329,35 @@ function assert_true(bool $condition, string $message): void
     if (!$condition) {
         throw new RuntimeException($message);
     }
+}
+
+function verify_chronos_index_entry(string $repo_root): void
+{
+    $path = $repo_root . '/packages.json';
+    if (!is_file($path)) {
+        throw new RuntimeException('packages.json missing for chronos index check');
+    }
+
+    /** @var array{packages: array<string, array<string, array<string, mixed>>>} $data */
+    $data = json_decode((string) file_get_contents($path), true, 512, JSON_THROW_ON_ERROR);
+    $expected_sha = 'd9bca928b0e323f0230d8caa9749decc62f14f48';
+    $version = 'dev-remote-test-2026-11-09';
+
+    if (!isset($data['packages']['cakephp/chronos'][$version])) {
+        throw new RuntimeException('cakephp/chronos missing dev-remote-test-2026-11-09 in packages.json');
+    }
+
+    $entry = $data['packages']['cakephp/chronos'][$version];
+    assert_true(
+        is_array($entry['source'] ?? null) && ($entry['source']['reference'] ?? '') === $expected_sha,
+        'chronos source.reference is d9bca928'
+    );
+    assert_true(
+        is_array($entry['dist'] ?? null) && ($entry['dist']['reference'] ?? '') === $expected_sha,
+        'chronos dist.reference is d9bca928'
+    );
+    $alias = $entry['extra']['branch-alias']['dev-remote-test-2026-11-09'] ?? null;
+    assert_true($alias === '3.5.x-dev', 'chronos extra.branch-alias dev-remote-test-2026-11-09 is 3.5.x-dev');
 }
 
 /**
