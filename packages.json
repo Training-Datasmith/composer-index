@@ -3961,12 +3961,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/core.git",
-                    "reference": "961bdab56e32827c944497e92a72572c4ab355ca"
+                    "reference": "d41b1db4e0285e4236bf45e65ff65903ac1af2d2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/core/zipball/961bdab56e32827c944497e92a72572c4ab355ca",
-                    "reference": "961bdab56e32827c944497e92a72572c4ab355ca",
+                    "url": "https://api.github.com/repos/Training-Datasmith/core/zipball/d41b1db4e0285e4236bf45e65ff65903ac1af2d2",
+                    "reference": "d41b1db4e0285e4236bf45e65ff65903ac1af2d2",
                     "shasum": ""
                 },
                 "description": "FuelPHP 1.x Core",
@@ -4125,28 +4125,27 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/fuel.git",
-                    "reference": "47944be842ca51dec7744700623a836f29e2f866"
+                    "reference": "c25479260dfcda591ca86d9b022b7ae343e8c7ee"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/fuel/zipball/47944be842ca51dec7744700623a836f29e2f866",
-                    "reference": "47944be842ca51dec7744700623a836f29e2f866",
+                    "url": "https://api.github.com/repos/Training-Datasmith/fuel/zipball/c25479260dfcda591ca86d9b022b7ae343e8c7ee",
+                    "reference": "c25479260dfcda591ca86d9b022b7ae343e8c7ee",
                     "shasum": ""
                 },
                 "description": "FuelPHP is a simple, flexible, community driven PHP 8.2+ application skeleton, based on the best ideas of other frameworks, with a fresh start!",
                 "license": "MIT",
                 "require": {
                     "php": ">=8.2",
-                    "composer/installers": "2.3.0 as 1.99.0",
+                    "composer/installers": "^2.3.0",
                     "cweagans/composer-patches": "2.0.0",
-                    "fuel/core": "1.8.*",
+                    "fuel/core": "dev-remote-test-2026-11-09 as 1.8.99",
                     "fuel/auth": "dev-ai-training-20260418 as 1.8.99",
                     "fuel/email": "dev-remote-test-2026-10-07 as 1.8.99",
                     "fuel/oil": "dev-remote-test-2026-10-07 as 1.8.99",
                     "fuel/orm": "dev-remote-test-2026-10-07 as 1.8.99",
                     "fuel/parser": "dev-remote-test-2026-10-07 as 1.8.99",
                     "fuelphp/upload": "2.0.6",
-                    "monolog/monolog": "2.11.1 as 1.99.0",
                     "psr/log": "dev-remote-test-2026-10-07 as 3.0.99"
                 },
                 "require-dev": {
