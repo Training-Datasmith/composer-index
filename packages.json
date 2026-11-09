@@ -4013,12 +4013,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/core.git",
-                    "reference": "c78c1977007c1a583458880cbd9d8799c127f4e7"
+                    "reference": "c618e63e8dcba7ff641ae830843963b0fbaf8395"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/core/zipball/c78c1977007c1a583458880cbd9d8799c127f4e7",
-                    "reference": "c78c1977007c1a583458880cbd9d8799c127f4e7",
+                    "url": "https://api.github.com/repos/Training-Datasmith/core/zipball/c618e63e8dcba7ff641ae830843963b0fbaf8395",
+                    "reference": "c618e63e8dcba7ff641ae830843963b0fbaf8395",
                     "shasum": ""
                 },
                 "description": "FuelPHP 1.x Core",

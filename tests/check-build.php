@@ -310,6 +310,7 @@ try {
     assert_true(isset($legacy_data['packages']['fixture/alpha']['dev-remote-test-2026-10-07']), 'legacy manifest row built');
 
     verify_chronos_index_entry($repo_root);
+    verify_core_index_entry($repo_root);
 } catch (Throwable $e) {
     $failures[] = 'fatal: ' . $e->getMessage();
 }
@@ -358,6 +359,33 @@ function verify_chronos_index_entry(string $repo_root): void
     );
     $alias = $entry['extra']['branch-alias']['dev-remote-test-2026-11-09'] ?? null;
     assert_true($alias === '3.5.x-dev', 'chronos extra.branch-alias dev-remote-test-2026-11-09 is 3.5.x-dev');
+}
+
+function verify_core_index_entry(string $repo_root): void
+{
+    $path = $repo_root . '/packages.json';
+    if (!is_file($path)) {
+        throw new RuntimeException('packages.json missing for core index check');
+    }
+
+    /** @var array{packages: array<string, array<string, array<string, mixed>>>} $data */
+    $data = json_decode((string) file_get_contents($path), true, 512, JSON_THROW_ON_ERROR);
+    $expected_sha = 'c618e63e8dcba7ff641ae830843963b0fbaf8395';
+    $version = 'dev-remote-test-2026-11-09';
+
+    if (!isset($data['packages']['fuel/core'][$version])) {
+        throw new RuntimeException('fuel/core missing dev-remote-test-2026-11-09 in packages.json');
+    }
+
+    $entry = $data['packages']['fuel/core'][$version];
+    assert_true(
+        is_array($entry['source'] ?? null) && ($entry['source']['reference'] ?? '') === $expected_sha,
+        'core source.reference is c618e63e'
+    );
+    assert_true(
+        is_array($entry['dist'] ?? null) && ($entry['dist']['reference'] ?? '') === $expected_sha,
+        'core dist.reference is c618e63e'
+    );
 }
 
 /**
