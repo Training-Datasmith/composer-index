@@ -311,6 +311,7 @@ try {
 
     verify_chronos_index_entry($repo_root);
     verify_core_index_entry($repo_root);
+    verify_fuel_index_entry($repo_root);
 } catch (Throwable $e) {
     $failures[] = 'fatal: ' . $e->getMessage();
 }
@@ -385,6 +386,33 @@ function verify_core_index_entry(string $repo_root): void
     assert_true(
         is_array($entry['dist'] ?? null) && ($entry['dist']['reference'] ?? '') === $expected_sha,
         'core dist.reference is c618e63e'
+    );
+}
+
+function verify_fuel_index_entry(string $repo_root): void
+{
+    $path = $repo_root . '/packages.json';
+    if (!is_file($path)) {
+        throw new RuntimeException('packages.json missing for fuel index check');
+    }
+
+    /** @var array{packages: array<string, array<string, array<string, mixed>>>} $data */
+    $data = json_decode((string) file_get_contents($path), true, 512, JSON_THROW_ON_ERROR);
+    $expected_sha = 'a29c96877e55d58dfc73fddd047c4dbdfcedcc7b';
+    $version = 'dev-remote-test-2026-10-07';
+
+    if (!isset($data['packages']['fuel/fuel'][$version])) {
+        throw new RuntimeException('fuel/fuel missing dev-remote-test-2026-10-07 in packages.json');
+    }
+
+    $entry = $data['packages']['fuel/fuel'][$version];
+    assert_true(
+        is_array($entry['source'] ?? null) && ($entry['source']['reference'] ?? '') === $expected_sha,
+        'fuel/fuel source.reference is a29c9687'
+    );
+    assert_true(
+        is_array($entry['dist'] ?? null) && ($entry['dist']['reference'] ?? '') === $expected_sha,
+        'fuel/fuel dist.reference is a29c9687'
     );
 }
 

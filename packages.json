@@ -4177,12 +4177,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/fuel.git",
-                    "reference": "98a476178f6170592c5e7f39722405b1134e6e58"
+                    "reference": "a29c96877e55d58dfc73fddd047c4dbdfcedcc7b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/fuel/zipball/98a476178f6170592c5e7f39722405b1134e6e58",
-                    "reference": "98a476178f6170592c5e7f39722405b1134e6e58",
+                    "url": "https://api.github.com/repos/Training-Datasmith/fuel/zipball/a29c96877e55d58dfc73fddd047c4dbdfcedcc7b",
+                    "reference": "a29c96877e55d58dfc73fddd047c4dbdfcedcc7b",
                     "shasum": ""
                 },
                 "description": "FuelPHP is a simple, flexible, community driven PHP 8.2+ application skeleton, based on the best ideas of other frameworks, with a fresh start!",
