@@ -313,6 +313,7 @@ try {
     verify_core_index_entry($repo_root);
     verify_fuel_index_entry($repo_root);
     verify_cakephp_index_entry($repo_root);
+    verify_php_parser_index_entry($repo_root);
     verify_manifest_index_references($repo_root);
 } catch (Throwable $e) {
     $failures[] = 'fatal: ' . $e->getMessage();
@@ -416,6 +417,35 @@ function verify_fuel_index_entry(string $repo_root): void
         is_array($entry['dist'] ?? null) && ($entry['dist']['reference'] ?? '') === $expected_sha,
         'fuel/fuel dist.reference is a29c9687'
     );
+}
+
+function verify_php_parser_index_entry(string $repo_root): void
+{
+    $path = $repo_root . '/packages.json';
+    if (!is_file($path)) {
+        throw new RuntimeException('packages.json missing for php-parser index check');
+    }
+
+    /** @var array{packages: array<string, array<string, array<string, mixed>>>} $data */
+    $data = json_decode((string) file_get_contents($path), true, 512, JSON_THROW_ON_ERROR);
+    $expected_sha = 'f7e11c33f9fbd4aab93d4b718d21e78289913587';
+    $version = 'dev-remote-test-2026-11-09';
+
+    if (!isset($data['packages']['nikic/php-parser'][$version])) {
+        throw new RuntimeException('nikic/php-parser missing dev-remote-test-2026-11-09 in packages.json');
+    }
+
+    $entry = $data['packages']['nikic/php-parser'][$version];
+    assert_true(
+        is_array($entry['source'] ?? null) && ($entry['source']['reference'] ?? '') === $expected_sha,
+        'nikic/php-parser source.reference is f7e11c33'
+    );
+    assert_true(
+        is_array($entry['dist'] ?? null) && ($entry['dist']['reference'] ?? '') === $expected_sha,
+        'nikic/php-parser dist.reference is f7e11c33'
+    );
+    $alias = $entry['extra']['branch-alias']['dev-master'] ?? null;
+    assert_true($alias === '5.x-dev', 'nikic/php-parser branch-alias dev-master is 5.x-dev');
 }
 
 function verify_manifest_index_references(string $repo_root): void

@@ -2022,12 +2022,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/Behat.git",
-                    "reference": "fe6960db773f9bd2b6a59f84bd52365e407ae887"
+                    "reference": "726eaa669d7b563adfee3655c63a681b157bf86f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/Behat/zipball/fe6960db773f9bd2b6a59f84bd52365e407ae887",
-                    "reference": "fe6960db773f9bd2b6a59f84bd52365e407ae887",
+                    "url": "https://api.github.com/repos/Training-Datasmith/Behat/zipball/726eaa669d7b563adfee3655c63a681b157bf86f",
+                    "reference": "726eaa669d7b563adfee3655c63a681b157bf86f",
                     "shasum": ""
                 },
                 "description": "Scenario-oriented BDD framework for PHP",
@@ -2038,12 +2038,18 @@
                     "composer-runtime-api": "^2.2",
                     "behat/gherkin": "^4.15.0",
                     "composer/xdebug-handler": "^1.4 || ^2.0 || ^3.0",
-                    "nikic/php-parser": "^4.19.2 || ^5.2",
-                    "psr/container": "^1.0 || ^2.0",
+                    "nikic/php-parser": "dev-remote-test-2026-11-09 as 5.7.99",
+                    "psr/container": "dev-remote-test-2026-10-07 as 2.0.2",
+                    "psr/event-dispatcher": "dev-remote-test-2026-10-07 as 1.0.99",
+                    "psr/log": "dev-remote-test-2026-10-07 as 3.0.2",
                     "symfony/config": "^5.4 || ^6.4 || ^7.0",
                     "symfony/console": "^5.4.9 || ^6.4 || ^7.0",
                     "symfony/dependency-injection": "^5.4 || ^6.4 || ^7.0",
                     "symfony/event-dispatcher": "^5.4 || ^6.4 || ^7.0",
+                    "symfony/polyfill-ctype": "dev-remote-test-2026-10-07 as 1.33.99",
+                    "symfony/polyfill-intl-grapheme": "dev-remote-test-2026-10-07 as 1.33.99",
+                    "symfony/polyfill-intl-normalizer": "dev-remote-test-2026-10-07 as 1.33.99",
+                    "symfony/polyfill-mbstring": "dev-remote-test-2026-10-07 as 1.33.99",
                     "symfony/translation": "^5.4 || ^6.4 || ^7.0",
                     "symfony/yaml": "^5.4 || ^6.4 || ^7.0"
                 },
@@ -2055,7 +2061,7 @@
                     "rector/rector": "2.1.7",
                     "sebastian/diff": "^4.0",
                     "symfony/filesystem": "^5.4 || ^6.4 || ^7.0",
-                    "symfony/polyfill-php84": "^1.31",
+                    "symfony/polyfill-php84": "dev-remote-test-2026-10-07 as 1.33.99",
                     "symfony/process": "^5.4 || ^6.4 || ^7.0"
                 },
                 "suggest": {
@@ -2400,12 +2406,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/Transliterator.git",
-                    "reference": "ee97a28be92e8948c798fe9cc2daef2e428c4cb4"
+                    "reference": "5884db4e1146885a16999813768474f8b57551c4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/Transliterator/zipball/ee97a28be92e8948c798fe9cc2daef2e428c4cb4",
-                    "reference": "ee97a28be92e8948c798fe9cc2daef2e428c4cb4",
+                    "url": "https://api.github.com/repos/Training-Datasmith/Transliterator/zipball/5884db4e1146885a16999813768474f8b57551c4",
+                    "reference": "5884db4e1146885a16999813768474f8b57551c4",
                     "shasum": ""
                 },
                 "description": "String transliterator",
@@ -2556,12 +2562,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/math.git",
-                    "reference": "4087f33d5790760eb423510dcf76014f45a7d84e"
+                    "reference": "948bbdb052ae949422ef6111f6ee6d2581182bf6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/math/zipball/4087f33d5790760eb423510dcf76014f45a7d84e",
-                    "reference": "4087f33d5790760eb423510dcf76014f45a7d84e",
+                    "url": "https://api.github.com/repos/Training-Datasmith/math/zipball/948bbdb052ae949422ef6111f6ee6d2581182bf6",
+                    "reference": "948bbdb052ae949422ef6111f6ee6d2581182bf6",
                     "shasum": ""
                 },
                 "description": "Arbitrary-precision arithmetic library",
@@ -2988,12 +2994,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/markdown.git",
-                    "reference": "75f7eeab5349064f8ae904c6bd3a552ed111ed29"
+                    "reference": "ba433f8dfed91b08a6491cebba04f0d6b1b14de8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/markdown/zipball/75f7eeab5349064f8ae904c6bd3a552ed111ed29",
-                    "reference": "75f7eeab5349064f8ae904c6bd3a552ed111ed29",
+                    "url": "https://api.github.com/repos/Training-Datasmith/markdown/zipball/ba433f8dfed91b08a6491cebba04f0d6b1b14de8",
+                    "reference": "ba433f8dfed91b08a6491cebba04f0d6b1b14de8",
                     "shasum": ""
                 },
                 "description": "A super fast, highly extensible markdown parser for PHP",
@@ -3003,8 +3009,7 @@
                     "lib-pcre": "*"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "4.1.*",
-                    "facebook/xhprof": "*@dev",
+                    "phpunit/phpunit": "^8.5.52",
                     "cebe/indent": "*"
                 },
                 "autoload": {
@@ -4162,12 +4167,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/ca-bundle.git",
-                    "reference": "4589d7b4ca342352c8f150cd63de2b73a53adc4c"
+                    "reference": "1365841253d7bb9987ff9c223877cf7101e51dcb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/ca-bundle/zipball/4589d7b4ca342352c8f150cd63de2b73a53adc4c",
-                    "reference": "4589d7b4ca342352c8f150cd63de2b73a53adc4c",
+                    "url": "https://api.github.com/repos/Training-Datasmith/ca-bundle/zipball/1365841253d7bb9987ff9c223877cf7101e51dcb",
+                    "reference": "1365841253d7bb9987ff9c223877cf7101e51dcb",
                     "shasum": ""
                 },
                 "description": "Lets you find a path to the system CA bundle, and includes a fallback to the Mozilla CA bundle.",
@@ -4178,7 +4183,7 @@
                     "php": "^7.2 || ^8.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^8 || ^9",
+                    "phpunit/phpunit": "^8.5.52",
                     "phpstan/phpstan": "^1.10",
                     "psr/log": "^1.0 || ^2.0 || ^3.0",
                     "symfony/process": "^4.0 || ^5.0 || ^6.0 || ^7.0"
@@ -4735,12 +4740,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/cache-2.git",
-                    "reference": "16c956e4fdffe06e3076714c54a79a6bc3101317"
+                    "reference": "c53a103da4b4ea008d8f5b36b97da715d8af54a0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/cache-2/zipball/16c956e4fdffe06e3076714c54a79a6bc3101317",
-                    "reference": "16c956e4fdffe06e3076714c54a79a6bc3101317",
+                    "url": "https://api.github.com/repos/Training-Datasmith/cache-2/zipball/c53a103da4b4ea008d8f5b36b97da715d8af54a0",
+                    "reference": "c53a103da4b4ea008d8f5b36b97da715d8af54a0",
                     "shasum": ""
                 },
                 "description": "PHP Doctrine Cache library is a popular cache implementation that supports many different drivers such as redis, memcache, apc, mongodb and others.",
@@ -4749,10 +4754,11 @@
                     "php": "~7.1 || ^8.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
-                    "doctrine/coding-standard": "^9",
-                    "psr/cache": "^1.0 || ^2.0 || ^3.0",
+                    "phpunit/phpunit": "^11.5",
                     "cache/integration-tests": "dev-master",
+                    "psr/cache": "dev-ai-training-20260418 as 3.0.99",
+                    "psr/log": "dev-remote-test-2026-10-07 as 3.0.2",
+                    "psr/simple-cache": "dev-remote-test-2026-11-08 as 3.0.0",
                     "symfony/cache": "^4.4 || ^5.4 || ^6",
                     "symfony/var-exporter": "^4.4 || ^5.4 || ^6"
                 },
@@ -5443,12 +5449,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/event-manager.git",
-                    "reference": "e8f1abfd514c280c45395a7c010927ed39daef19"
+                    "reference": "32e3eae0191e154c8e2e9d34a9691e116506451c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/event-manager/zipball/e8f1abfd514c280c45395a7c010927ed39daef19",
-                    "reference": "e8f1abfd514c280c45395a7c010927ed39daef19",
+                    "url": "https://api.github.com/repos/Training-Datasmith/event-manager/zipball/32e3eae0191e154c8e2e9d34a9691e116506451c",
+                    "reference": "32e3eae0191e154c8e2e9d34a9691e116506451c",
                     "shasum": ""
                 },
                 "description": "The Doctrine Event Manager is a simple PHP event system that was built to be used with the various Doctrine projects.",
@@ -5459,7 +5465,7 @@
                 "require-dev": {
                     "doctrine/coding-standard": "^14",
                     "phpdocumentor/guides-cli": "^1.4",
-                    "phpstan/phpstan": "^2.1.32",
+                    "phpstan/phpstan": "dev-remote-test-2026-10-07 as 2.2.99",
                     "phpunit/phpunit": "^10.5.58"
                 },
                 "conflict": {
@@ -5591,12 +5597,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/lexer.git",
-                    "reference": "827892a0aa663183624d9d82fa45206266c1599f"
+                    "reference": "41401789735434f8de7638e0d7564095b0484518"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/lexer/zipball/827892a0aa663183624d9d82fa45206266c1599f",
-                    "reference": "827892a0aa663183624d9d82fa45206266c1599f",
+                    "url": "https://api.github.com/repos/Training-Datasmith/lexer/zipball/41401789735434f8de7638e0d7564095b0484518",
+                    "reference": "41401789735434f8de7638e0d7564095b0484518",
                     "shasum": ""
                 },
                 "description": "PHP Doctrine Lexer parser library that can be used in Top-Down, Recursive Descent Parsers.",
@@ -5606,7 +5612,7 @@
                 },
                 "require-dev": {
                     "doctrine/coding-standard": "^14",
-                    "phpstan/phpstan": "^2",
+                    "phpstan/phpstan": "dev-remote-test-2026-10-07 as 2.2.99",
                     "phpunit/phpunit": "^10.5.58 || ^12.5.4"
                 },
                 "autoload": {
@@ -5984,12 +5990,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/cron-expression.git",
-                    "reference": "91bea6df3dc80bbe326daec9dcbf76eb2ba0d775"
+                    "reference": "6885f11a6903581bd4f7c29990405c6617f8406a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/cron-expression/zipball/91bea6df3dc80bbe326daec9dcbf76eb2ba0d775",
-                    "reference": "91bea6df3dc80bbe326daec9dcbf76eb2ba0d775",
+                    "url": "https://api.github.com/repos/Training-Datasmith/cron-expression/zipball/6885f11a6903581bd4f7c29990405c6617f8406a",
+                    "reference": "6885f11a6903581bd4f7c29990405c6617f8406a",
                     "shasum": ""
                 },
                 "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
@@ -5998,9 +6004,9 @@
                     "php": "^8.2|^8.3|^8.4|^8.5"
                 },
                 "require-dev": {
-                    "phpstan/phpstan": "^2.1.31",
+                    "phpstan/phpstan": "dev-remote-test-2026-10-07 as 2.2.99",
                     "phpunit/phpunit": "^11.5.43 || ^12.4",
-                    "phpstan/extension-installer": "^1.4.3"
+                    "phpstan/extension-installer": "dev-remote-test-2026-10-07 as 1.4.3"
                 },
                 "replace": {
                     "mtdowling/cron-expression": "^1.0"
@@ -7742,12 +7748,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/upload.git",
-                    "reference": "132e0d423fe58b4256184db4c195fd726363fcd8"
+                    "reference": "b5c8f3200d33d0d05491b5ad7274f37c04bb513b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/upload/zipball/132e0d423fe58b4256184db4c195fd726363fcd8",
-                    "reference": "132e0d423fe58b4256184db4c195fd726363fcd8",
+                    "url": "https://api.github.com/repos/Training-Datasmith/upload/zipball/b5c8f3200d33d0d05491b5ad7274f37c04bb513b",
+                    "reference": "b5c8f3200d33d0d05491b5ad7274f37c04bb513b",
                     "shasum": ""
                 },
                 "description": "Process uploaded files",
@@ -7757,7 +7763,15 @@
                     "ext-fileinfo": "*"
                 },
                 "require-dev": {
-                    "codeception/codeception": "^5.0"
+                    "codeception/codeception": "dev-remote-test-2026-10-07 as 5.3.5",
+                    "codeception/module-asserts": "dev-remote-test-2026-10-07 as 3.3.0",
+                    "nikic/php-parser": "dev-remote-test-2026-11-09 as 5.7.0",
+                    "psr/container": "dev-remote-test-2026-10-07 as 2.0.2",
+                    "psr/event-dispatcher": "dev-remote-test-2026-10-07 as 1.0.0",
+                    "symfony/polyfill-ctype": "dev-remote-test-2026-10-07 as 1.33.0",
+                    "symfony/polyfill-intl-grapheme": "dev-remote-test-2026-10-07 as 1.33.0",
+                    "symfony/polyfill-intl-normalizer": "dev-remote-test-2026-10-07 as 1.33.0",
+                    "symfony/polyfill-mbstring": "dev-remote-test-2026-10-07 as 1.33.0"
                 },
                 "autoload": {
                     "psr-4": {
@@ -8228,12 +8242,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/promises.git",
-                    "reference": "c13e12418aa7c5397a462937a5eef8697d7d8596"
+                    "reference": "64b6bbab595bac201b678f35b4b2b30475f3d505"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/promises/zipball/c13e12418aa7c5397a462937a5eef8697d7d8596",
-                    "reference": "c13e12418aa7c5397a462937a5eef8697d7d8596",
+                    "url": "https://api.github.com/repos/Training-Datasmith/promises/zipball/64b6bbab595bac201b678f35b4b2b30475f3d505",
+                    "reference": "64b6bbab595bac201b678f35b4b2b30475f3d505",
                     "shasum": ""
                 },
                 "description": "Guzzle promises library",
@@ -8320,20 +8334,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/psr7.git",
-                    "reference": "347512f0f1e3d0922d81d49e9f109549f99e0768"
+                    "reference": "01ddd626431d8586a8d18721dac7e61aa4df67b0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/psr7/zipball/347512f0f1e3d0922d81d49e9f109549f99e0768",
-                    "reference": "347512f0f1e3d0922d81d49e9f109549f99e0768",
+                    "url": "https://api.github.com/repos/Training-Datasmith/psr7/zipball/01ddd626431d8586a8d18721dac7e61aa4df67b0",
+                    "reference": "01ddd626431d8586a8d18721dac7e61aa4df67b0",
                     "shasum": ""
                 },
                 "description": "PSR-7 message implementation that also provides common utility methods",
                 "license": "MIT",
                 "require": {
                     "php": "^7.2.5 || ^8.0",
-                    "psr/http-factory": "^1.0",
-                    "psr/http-message": "^1.1 || ^2.0",
+                    "psr/http-factory": "dev-remote-test-2026-10-07 as 1.1.0",
+                    "psr/http-message": "dev-remote-test-2026-10-07 as 2.0.0",
                     "ralouphie/getallheaders": "^3.0"
                 },
                 "require-dev": {
@@ -16527,12 +16541,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/html5-php.git",
-                    "reference": "e98f0ef782e45f1601e6fdf168432509a53bc695"
+                    "reference": "1cc604c180346af23ed7b71e0eddf8c7a56ea68d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/html5-php/zipball/e98f0ef782e45f1601e6fdf168432509a53bc695",
-                    "reference": "e98f0ef782e45f1601e6fdf168432509a53bc695",
+                    "url": "https://api.github.com/repos/Training-Datasmith/html5-php/zipball/1cc604c180346af23ed7b71e0eddf8c7a56ea68d",
+                    "reference": "1cc604c180346af23ed7b71e0eddf8c7a56ea68d",
                     "shasum": ""
                 },
                 "description": "An HTML5 parser and serializer.",
@@ -16542,6 +16556,7 @@
                     "php": ">=5.3.0"
                 },
                 "require-dev": {
+                    "nikic/php-parser": "dev-remote-test-2026-11-09 as 5.7.0",
                     "phpunit/phpunit": "^4.8.35 || ^5.7.21 || ^6 || ^7 || ^8 || ^9"
                 },
                 "autoload": {
@@ -16950,12 +16965,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/mockery.git",
-                    "reference": "f54ce23183432981d12353e206a449290fcb8d66"
+                    "reference": "9718e7aaa9ac31e7e45bd34de0f8a8fc563e1077"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/mockery/zipball/f54ce23183432981d12353e206a449290fcb8d66",
-                    "reference": "f54ce23183432981d12353e206a449290fcb8d66",
+                    "url": "https://api.github.com/repos/Training-Datasmith/mockery/zipball/9718e7aaa9ac31e7e45bd34de0f8a8fc563e1077",
+                    "reference": "9718e7aaa9ac31e7e45bd34de0f8a8fc563e1077",
                     "shasum": ""
                 },
                 "description": "Mockery is a simple yet flexible PHP mock object framework",
@@ -16985,6 +17000,9 @@
                     "psr-4": {
                         "Tests\\": "tests"
                     },
+                    "classmap": [
+                        "tests/"
+                    ],
                     "exclude-from-classmap": [
                         "tests/Fixture"
                     ],
@@ -17753,12 +17771,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/PHP-Parser.git",
-                    "reference": "50f0d9c9d0e3cff1163c959c50aaaaa4a7115f08"
+                    "reference": "f7e11c33f9fbd4aab93d4b718d21e78289913587"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/PHP-Parser/zipball/50f0d9c9d0e3cff1163c959c50aaaaa4a7115f08",
-                    "reference": "50f0d9c9d0e3cff1163c959c50aaaaa4a7115f08",
+                    "url": "https://api.github.com/repos/Training-Datasmith/PHP-Parser/zipball/f7e11c33f9fbd4aab93d4b718d21e78289913587",
+                    "reference": "f7e11c33f9fbd4aab93d4b718d21e78289913587",
                     "shasum": ""
                 },
                 "description": "A PHP parser written in PHP",
@@ -17770,17 +17788,17 @@
                     "ext-ctype": "*"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^9.0",
+                    "phpunit/phpunit": "^9.6.33",
                     "ircmaxell/php-yacc": "^0.0.7"
                 },
                 "autoload": {
                     "psr-4": {
-                        "PhpParser\\": "lib/PhpParser"
+                        "Php_Parser\\": "lib/PhpParser"
                     }
                 },
                 "autoload-dev": {
                     "psr-4": {
-                        "PhpParser\\": "test/PhpParser/"
+                        "Php_Parser\\": "test/PhpParser/"
                     }
                 },
                 "bin": [
@@ -19364,21 +19382,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/Checkout-PHP-SDK.git",
-                    "reference": "8af684012c335bf210133cfe373d9d0d78fb01bc"
+                    "reference": "93c2552a7b4b807dd84c515b689036c4cf26a085"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/Checkout-PHP-SDK/zipball/8af684012c335bf210133cfe373d9d0d78fb01bc",
-                    "reference": "8af684012c335bf210133cfe373d9d0d78fb01bc",
+                    "url": "https://api.github.com/repos/Training-Datasmith/Checkout-PHP-SDK/zipball/93c2552a7b4b807dd84c515b689036c4cf26a085",
+                    "reference": "93c2552a7b4b807dd84c515b689036c4cf26a085",
                     "shasum": ""
                 },
                 "description": "PayPal's PHP SDK for Checkout REST APIs",
                 "license": "Apache-2.0",
                 "require": {
+                    "php": ">=8.1",
+                    "ext-curl": "*",
                     "paypal/paypalhttp": "1.0.1"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^5.7"
+                    "phpunit/phpunit": "^9.6.33"
                 },
                 "autoload": {
                     "psr-4": {
@@ -19493,12 +19513,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/Archive_Tar.git",
-                    "reference": "6a31d0c93e80c70ba19a62308bce90b3a8ef822e"
+                    "reference": "270a9b44c73d9b84397dddf0edf73d853ef7abbc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/Archive_Tar/zipball/6a31d0c93e80c70ba19a62308bce90b3a8ef822e",
-                    "reference": "6a31d0c93e80c70ba19a62308bce90b3a8ef822e",
+                    "url": "https://api.github.com/repos/Training-Datasmith/Archive_Tar/zipball/270a9b44c73d9b84397dddf0edf73d853ef7abbc",
+                    "reference": "270a9b44c73d9b84397dddf0edf73d853ef7abbc",
                     "shasum": ""
                 },
                 "description": "Tar file management class with compression support (gzip, bzip2, lzma2)",
@@ -19508,6 +19528,7 @@
                     "pear/pear-core-minimal": "^1.10.0alpha2"
                 },
                 "require-dev": {
+                    "nikic/php-parser": "dev-remote-test-2026-11-09 as 5.7.0",
                     "phpunit/phpunit": "^10.5"
                 },
                 "suggest": {
@@ -22666,12 +22687,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/decimal.git",
-                    "reference": "0119477d4a4866d1143fde79980c5c3ea0362805"
+                    "reference": "421f5a2b247c036d49f1f2b0ad2f44a64f8b0dd9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/decimal/zipball/0119477d4a4866d1143fde79980c5c3ea0362805",
-                    "reference": "0119477d4a4866d1143fde79980c5c3ea0362805",
+                    "url": "https://api.github.com/repos/Training-Datasmith/decimal/zipball/421f5a2b247c036d49f1f2b0ad2f44a64f8b0dd9",
+                    "reference": "421f5a2b247c036d49f1f2b0ad2f44a64f8b0dd9",
                     "shasum": ""
                 },
                 "description": "Object-oriented wrapper/shim for BC Math PHP extension. Allows for arbitrary-precision math operations.",
@@ -22680,7 +22701,7 @@
                     "php": ">=7.2"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "8.*",
+                    "phpunit/phpunit": "^8.5.52",
                     "prestashop/php-dev-tools": "^4.1",
                     "phpstan/phpstan": "^0.12.99"
                 },
@@ -28049,12 +28070,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/jsonlint.git",
-                    "reference": "54aa449484fe43adb4bd5e85474433c7ef7d5365"
+                    "reference": "d22dba72ea40b609b927c33999c25861cbe67104"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/jsonlint/zipball/54aa449484fe43adb4bd5e85474433c7ef7d5365",
-                    "reference": "54aa449484fe43adb4bd5e85474433c7ef7d5365",
+                    "url": "https://api.github.com/repos/Training-Datasmith/jsonlint/zipball/d22dba72ea40b609b927c33999c25861cbe67104",
+                    "reference": "d22dba72ea40b609b927c33999c25861cbe67104",
                     "shasum": ""
                 },
                 "description": "JSON Linter",
@@ -28063,12 +28084,12 @@
                     "php": "^5.3 || ^7.0 || ^8.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0 || ^8.5.13",
+                    "phpunit/phpunit": "^8.5.52",
                     "phpstan/phpstan": "^1.11"
                 },
                 "autoload": {
                     "psr-4": {
-                        "Seld\\Json_Lint\\": "src/Seld/JsonLint/"
+                        "Seld\\Json_Lint\\": "src/Seld/Json_Lint/"
                     }
                 },
                 "bin": [
@@ -29179,25 +29200,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/pdfparser.git",
-                    "reference": "2eb15c4737a1ffc0c9a997b013e17dbfc22bfcd8"
+                    "reference": "4e8041f9955f91909b06d597b0cc7cd919d634e7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/pdfparser/zipball/2eb15c4737a1ffc0c9a997b013e17dbfc22bfcd8",
-                    "reference": "2eb15c4737a1ffc0c9a997b013e17dbfc22bfcd8",
+                    "url": "https://api.github.com/repos/Training-Datasmith/pdfparser/zipball/4e8041f9955f91909b06d597b0cc7cd919d634e7",
+                    "reference": "4e8041f9955f91909b06d597b0cc7cd919d634e7",
                     "shasum": ""
                 },
                 "description": "Pdf parser library. Can read and extract information from pdf file.",
                 "license": "LGPL-3.0",
                 "require": {
                     "php": ">=7.1",
-                    "symfony/polyfill-mbstring": "^1.18",
+                    "symfony/polyfill-mbstring": "dev-remote-test-2026-10-07 as 1.33.0",
                     "ext-zlib": "*",
                     "ext-iconv": "*"
                 },
                 "autoload": {
-                    "psr-0": {
-                        "Smalot\\PdfParser\\": "src/"
+                    "psr-4": {
+                        "Smalot\\PdfParser\\": "src/Smalot/PdfParser/"
                     }
                 },
                 "autoload-dev": {
@@ -29251,27 +29272,30 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/smarty.git",
-                    "reference": "01f34cf453caf595974ebed532145d2af7b92f8f"
+                    "reference": "3ff7494863691c1bfbb9d9611aff3eb09471639c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/smarty/zipball/01f34cf453caf595974ebed532145d2af7b92f8f",
-                    "reference": "01f34cf453caf595974ebed532145d2af7b92f8f",
+                    "url": "https://api.github.com/repos/Training-Datasmith/smarty/zipball/3ff7494863691c1bfbb9d9611aff3eb09471639c",
+                    "reference": "3ff7494863691c1bfbb9d9611aff3eb09471639c",
                     "shasum": ""
                 },
                 "description": "Smarty - the compiling PHP template engine",
                 "license": "LGPL-3.0",
                 "require": {
                     "php": "^7.2 || ^8.0",
-                    "symfony/polyfill-mbstring": "^1.27"
+                    "symfony/polyfill-mbstring": "dev-remote-test-2026-10-07 as 1.33.99"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^8.5 || ^7.5",
+                    "phpunit/phpunit": "^8.5.52",
                     "smarty/smarty-lexer": "^4.0.2"
                 },
                 "autoload": {
                     "psr-4": {
-                        "Smarty\\": "src/"
+                        "Smarty\\": "src/",
+                        "Smarty\\Block_Handler\\": "src/BlockHandler/",
+                        "Smarty\\Function_Handler\\": "src/FunctionHandler/",
+                        "Smarty\\Parse_Tree\\": "src/ParseTree/"
                     },
                     "files": [
                         "src/functions.php"
@@ -29724,12 +29748,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/PHP_CodeSniffer.git",
-                    "reference": "bb0eb13fbc957e22f05a0ce4a1ae98636b6d859f"
+                    "reference": "1412adc4e793251801bd759c8ec6a783c3229a0a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/PHP_CodeSniffer/zipball/bb0eb13fbc957e22f05a0ce4a1ae98636b6d859f",
-                    "reference": "bb0eb13fbc957e22f05a0ce4a1ae98636b6d859f",
+                    "url": "https://api.github.com/repos/Training-Datasmith/PHP_CodeSniffer/zipball/1412adc4e793251801bd759c8ec6a783c3229a0a",
+                    "reference": "1412adc4e793251801bd759c8ec6a783c3229a0a",
                     "shasum": ""
                 },
                 "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
@@ -29741,7 +29765,7 @@
                     "ext-simplexml": "*"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
+                    "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.5.52 || ^9.6.33"
                 },
                 "bin": [
                     "bin/phpcs",
@@ -32310,24 +32334,27 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/contracts.git",
-                    "reference": "dfa86a7929b6fdc560bd8697f29251348dab2c3c"
+                    "reference": "0361784798667374e4bcd96618c8bbf519ed477b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/contracts/zipball/dfa86a7929b6fdc560bd8697f29251348dab2c3c",
-                    "reference": "dfa86a7929b6fdc560bd8697f29251348dab2c3c",
+                    "url": "https://api.github.com/repos/Training-Datasmith/contracts/zipball/0361784798667374e4bcd96618c8bbf519ed477b",
+                    "reference": "0361784798667374e4bcd96618c8bbf519ed477b",
                     "shasum": ""
                 },
                 "description": "A set of abstractions extracted out of the Symfony components",
                 "license": "MIT",
                 "require": {
                     "php": ">=8.1",
-                    "psr/cache": "^3.0",
-                    "psr/container": "^1.1|^2.0",
-                    "psr/event-dispatcher": "^1.0"
+                    "psr/cache": "dev-ai-training-20260418 as 3.0.0",
+                    "psr/container": "dev-remote-test-2026-10-07 as 2.0.2",
+                    "psr/event-dispatcher": "dev-remote-test-2026-10-07 as 1.0.0"
                 },
                 "require-dev": {
-                    "symfony/polyfill-intl-idn": "^1.10"
+                    "phpunit/phpunit": "^11.3",
+                    "symfony/phpunit-bridge": "dev-remote-test-2026-11-09 as 8.0.7",
+                    "symfony/polyfill-intl-idn": "dev-remote-test-2026-10-07 as 1.33.0",
+                    "symfony/polyfill-intl-normalizer": "dev-remote-test-2026-10-07 as 1.33.0"
                 },
                 "conflict": {
                     "ext-psr": "<1.1|>=2"
@@ -32356,7 +32383,8 @@
                         "dev-main": "3.7-dev"
                     }
                 },
-                "minimum-stability": "dev"
+                "minimum-stability": "dev",
+                "prefer-stable": true
             }
         },
         "symfony/flex": {
@@ -34511,12 +34539,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/JShrink.git",
-                    "reference": "397b41c8eefecfcb7f86d1ecd21dddc8f0b5f394"
+                    "reference": "5a6c953a6d959fea666aed188b1e820bbcf0abeb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/JShrink/zipball/397b41c8eefecfcb7f86d1ecd21dddc8f0b5f394",
-                    "reference": "397b41c8eefecfcb7f86d1ecd21dddc8f0b5f394",
+                    "url": "https://api.github.com/repos/Training-Datasmith/JShrink/zipball/5a6c953a6d959fea666aed188b1e820bbcf0abeb",
+                    "reference": "5a6c953a6d959fea666aed188b1e820bbcf0abeb",
                     "shasum": ""
                 },
                 "description": "Javascript Minifier built in PHP",
@@ -34525,13 +34553,11 @@
                     "php": ">=5.3.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "4.0.*",
-                    "fabpot/php-cs-fixer": "0.4.0",
-                    "satooshi/php-coveralls": "dev-master"
+                    "phpunit/phpunit": "^8.5.52"
                 },
                 "autoload": {
                     "psr-0": {
-                        "JShrink": "src/"
+                        "J_Shrink": "src/"
                     }
                 }
             }
