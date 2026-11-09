@@ -41,6 +41,10 @@
    "branch": "remote-test-2026-10-07"
   },
   {
+   "name": "core",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
    "name": "container",
    "branch": "remote-test-2026-10-07"
   },
