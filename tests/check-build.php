@@ -448,6 +448,47 @@ function verify_php_parser_index_entry(string $repo_root): void
     assert_true($alias === '5.x-dev', 'nikic/php-parser branch-alias dev-master is 5.x-dev');
 }
 
+function verify_nyholm_psr7_index_entry(string $repo_root): void
+{
+    $path = $repo_root . '/packages.json';
+    if (!is_file($path)) {
+        throw new RuntimeException('packages.json missing for nyholm/psr7 index check');
+    }
+
+    /** @var array{packages: array<string, array<string, array<string, mixed>>>} $data */
+    $data = json_decode((string) file_get_contents($path), true, 512, JSON_THROW_ON_ERROR);
+    $expected_sha = '73208c4a426cbaef76adcd2eb1d8d2bac17ccbd2';
+    $version = 'dev-remote-test-2026-11-09';
+
+    if (!isset($data['packages']['nyholm/psr7'][$version])) {
+        throw new RuntimeException('nyholm/psr7 missing dev-remote-test-2026-11-09 in packages.json');
+    }
+
+    $entry = $data['packages']['nyholm/psr7'][$version];
+    assert_true(
+        is_array($entry['source'] ?? null) && ($entry['source']['reference'] ?? '') === $expected_sha,
+        'nyholm/psr7 source.reference is 73208c4a'
+    );
+    assert_true(
+        is_array($entry['dist'] ?? null) && ($entry['dist']['reference'] ?? '') === $expected_sha,
+        'nyholm/psr7 dist.reference is 73208c4a'
+    );
+    assert_true(
+        ($entry['dist']['url'] ?? '') === 'https://api.github.com/repos/Training-Datasmith/psr7-1/zipball/' . $expected_sha,
+        'nyholm/psr7 dist.url uses 73208c4a'
+    );
+    $require = $entry['require'] ?? [];
+    assert_true(is_array($require), 'nyholm/psr7 require is array');
+    assert_true(
+        ($require['psr/http-message'] ?? '') === 'dev-remote-test-2026-10-07 as 2.0.0',
+        'nyholm/psr7 requires psr/http-message dev-remote-test-2026-10-07 as 2.0.0'
+    );
+    assert_true(
+        ($require['psr/http-factory'] ?? '') === 'dev-remote-test-2026-10-07 as 1.1.0',
+        'nyholm/psr7 requires psr/http-factory dev-remote-test-2026-10-07 as 1.1.0'
+    );
+}
+
 function verify_manifest_index_references(string $repo_root): void
 {
     $manifest_path = $repo_root . '/manifests/remote-test.json';

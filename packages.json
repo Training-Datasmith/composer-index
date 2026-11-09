@@ -4559,12 +4559,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/php-encryption.git",
-                    "reference": "ea2d9cf3d4b6f4d64fb13f6d228b2a6bf1d5192d"
+                    "reference": "76bb473fc8c00e85adff1eca57f1635a48bf4f85"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/php-encryption/zipball/ea2d9cf3d4b6f4d64fb13f6d228b2a6bf1d5192d",
-                    "reference": "ea2d9cf3d4b6f4d64fb13f6d228b2a6bf1d5192d",
+                    "url": "https://api.github.com/repos/Training-Datasmith/php-encryption/zipball/76bb473fc8c00e85adff1eca57f1635a48bf4f85",
+                    "reference": "76bb473fc8c00e85adff1eca57f1635a48bf4f85",
                     "shasum": ""
                 },
                 "description": "Secure PHP Encryption Library",
@@ -4576,11 +4576,16 @@
                 },
                 "require-dev": {
                     "yoast/phpunit-polyfills": "^2.0.0",
-                    "phpunit/phpunit": "^5|^6|^7|^8|^9|^10"
+                    "phpunit/phpunit": "^8.5.52"
                 },
                 "autoload": {
                     "psr-4": {
                         "Defuse\\Crypto\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Defuse\\Crypto\\Tests\\": "tests/"
                     }
                 },
                 "bin": [
@@ -6494,12 +6499,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/svg-sanitizer.git",
-                    "reference": "d6cc7945a0f68c244969e158bc9dd4b4feb97f83"
+                    "reference": "696226a4d746b9c7aed7c646d114de84e53fccd6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/svg-sanitizer/zipball/d6cc7945a0f68c244969e158bc9dd4b4feb97f83",
-                    "reference": "d6cc7945a0f68c244969e158bc9dd4b4feb97f83",
+                    "url": "https://api.github.com/repos/Training-Datasmith/svg-sanitizer/zipball/696226a4d746b9c7aed7c646d114de84e53fccd6",
+                    "reference": "696226a4d746b9c7aed7c646d114de84e53fccd6",
                     "shasum": ""
                 },
                 "description": "An SVG sanitizer for PHP",
@@ -6510,16 +6515,16 @@
                     "php": "^7.1 || ^8.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^6.5 || ^8.5"
+                    "phpunit/phpunit": "^8.5.52"
                 },
                 "autoload": {
                     "psr-4": {
-                        "enshrined\\svg_Sanitize\\": "src"
+                        "enshrined\\Svg_Sanitize\\": "src"
                     }
                 },
                 "autoload-dev": {
                     "psr-4": {
-                        "enshrined\\svg_Sanitize\\Tests\\": "tests"
+                        "enshrined\\Svg_Sanitize\\Tests\\": "tests"
                     }
                 }
             }
@@ -8428,12 +8433,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/uri-template.git",
-                    "reference": "3396ebc2f9983179cdad789b4df354aada1b0eb4"
+                    "reference": "fbccc3edf1b22af7aa111bc63bed6eb6f303d7c0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/uri-template/zipball/3396ebc2f9983179cdad789b4df354aada1b0eb4",
-                    "reference": "3396ebc2f9983179cdad789b4df354aada1b0eb4",
+                    "url": "https://api.github.com/repos/Training-Datasmith/uri-template/zipball/fbccc3edf1b22af7aa111bc63bed6eb6f303d7c0",
+                    "reference": "fbccc3edf1b22af7aa111bc63bed6eb6f303d7c0",
                     "shasum": ""
                 },
                 "description": "A polyfill class for uri_template of PHP",
@@ -8444,7 +8449,7 @@
                 },
                 "require-dev": {
                     "bamarni/composer-bin-plugin": "^1.8.2",
-                    "phpunit/phpunit": "^8.5.44 || ^9.6.25",
+                    "phpunit/phpunit": "^8.5.52 || ^9.6.33",
                     "uri-template/tests": "1.0.0"
                 },
                 "autoload": {
@@ -8691,18 +8696,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/password_compat.git",
-                    "reference": "af018089dc8bd58ae003c02644b68d397500b9ba"
+                    "reference": "43f2dc9e09180351f7ac7e01cd29813f2d6871c8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/password_compat/zipball/af018089dc8bd58ae003c02644b68d397500b9ba",
-                    "reference": "af018089dc8bd58ae003c02644b68d397500b9ba",
+                    "url": "https://api.github.com/repos/Training-Datasmith/password_compat/zipball/43f2dc9e09180351f7ac7e01cd29813f2d6871c8",
+                    "reference": "43f2dc9e09180351f7ac7e01cd29813f2d6871c8",
                     "shasum": ""
                 },
                 "description": "A compatibility library for the proposed simplified password hashing algorithm: https://wiki.php.net/rfc/password_hash",
                 "license": "MIT",
                 "require-dev": {
-                    "phpunit/phpunit": "4.*"
+                    "phpunit/phpunit": "^8.5.52"
                 },
                 "autoload": {
                     "files": [
@@ -8967,24 +8972,32 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/laravel-nestedset.git",
-                    "reference": "24f3b3a8dfe3d62eed704d04513a8db3ae38c022"
+                    "reference": "c87b95883b856e1721171eee37de921c5d9b69c3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/laravel-nestedset/zipball/24f3b3a8dfe3d62eed704d04513a8db3ae38c022",
-                    "reference": "24f3b3a8dfe3d62eed704d04513a8db3ae38c022",
+                    "url": "https://api.github.com/repos/Training-Datasmith/laravel-nestedset/zipball/c87b95883b856e1721171eee37de921c5d9b69c3",
+                    "reference": "c87b95883b856e1721171eee37de921c5d9b69c3",
                     "shasum": ""
                 },
                 "description": "Nested Set Model for Laravel 5.7 and up",
                 "license": "MIT",
                 "require": {
                     "php": "^8.0",
+                    "psr/clock": "dev-remote-test-2026-10-07 as 1.0.0",
+                    "psr/container": "dev-remote-test-2026-10-07 as 2.0.2",
+                    "psr/simple-cache": "dev-remote-test-2026-11-08 as 3.0.0",
+                    "symfony/polyfill-ctype": "dev-remote-test-2026-10-07 as 1.33.0",
+                    "symfony/polyfill-intl-grapheme": "dev-remote-test-2026-10-07 as 1.33.0",
+                    "symfony/polyfill-intl-normalizer": "dev-remote-test-2026-10-07 as 1.33.0",
+                    "symfony/polyfill-mbstring": "dev-remote-test-2026-10-07 as 1.33.0",
+                    "voku/portable-ascii": "dev-remote-test-2026-11-09 as 2.0.3",
                     "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
                     "illuminate/database": "^7.0|^8.0|^9.0|^10.0|^11.0|^12.0",
                     "illuminate/events": "^7.0|^8.0|^9.0|^10.0|^11.0|^12.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "7.*|8.*|9.*|^10.5"
+                    "phpunit/phpunit": ">=8.5.52 <10"
                 },
                 "autoload": {
                     "psr-4": {
@@ -8997,7 +9010,7 @@
                     },
                     "laravel": {
                         "providers": [
-                            "Kalnoy\\Nestedset\\NestedSetServiceProvider"
+                            "Kalnoy\\Nestedset\\Nested_Set_Service_Provider"
                         ]
                     }
                 },
@@ -16474,12 +16487,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/php-mb-helpers.git",
-                    "reference": "e9e5ff6aaaca42825c2af7055a15a0d1326423f0"
+                    "reference": "3a629beb5674fb7e0fc3c7532942c277d9bd7f1e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/php-mb-helpers/zipball/e9e5ff6aaaca42825c2af7055a15a0d1326423f0",
-                    "reference": "e9e5ff6aaaca42825c2af7055a15a0d1326423f0",
+                    "url": "https://api.github.com/repos/Training-Datasmith/php-mb-helpers/zipball/3a629beb5674fb7e0fc3c7532942c277d9bd7f1e",
+                    "reference": "3a629beb5674fb7e0fc3c7532942c277d9bd7f1e",
                     "shasum": ""
                 },
                 "description": "Provides mb_ucwords(), mb_ucfirst(), mb_strrev(), mb_str_pad(), mb_count_chars(), mb_str_split()",
@@ -16488,7 +16501,7 @@
                     "php": ">=5.3.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "~4.6"
+                    "phpunit/phpunit": "^8.5.52"
                 },
                 "autoload": {
                     "files": [
@@ -16541,12 +16554,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/html5-php.git",
-                    "reference": "1cc604c180346af23ed7b71e0eddf8c7a56ea68d"
+                    "reference": "79c6f90168d057db5503e2d5c869eb95f510f5e6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/html5-php/zipball/1cc604c180346af23ed7b71e0eddf8c7a56ea68d",
-                    "reference": "1cc604c180346af23ed7b71e0eddf8c7a56ea68d",
+                    "url": "https://api.github.com/repos/Training-Datasmith/html5-php/zipball/79c6f90168d057db5503e2d5c869eb95f510f5e6",
+                    "reference": "79c6f90168d057db5503e2d5c869eb95f510f5e6",
                     "shasum": ""
                 },
                 "description": "An HTML5 parser and serializer.",
@@ -18064,23 +18077,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/psr7-1.git",
-                    "reference": "889d890ba25e4264ad92ce56b18ef8218611ca51"
+                    "reference": "73208c4a426cbaef76adcd2eb1d8d2bac17ccbd2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/psr7-1/zipball/889d890ba25e4264ad92ce56b18ef8218611ca51",
-                    "reference": "889d890ba25e4264ad92ce56b18ef8218611ca51",
+                    "url": "https://api.github.com/repos/Training-Datasmith/psr7-1/zipball/73208c4a426cbaef76adcd2eb1d8d2bac17ccbd2",
+                    "reference": "73208c4a426cbaef76adcd2eb1d8d2bac17ccbd2",
                     "shasum": ""
                 },
                 "description": "A fast PHP7 implementation of PSR-7",
                 "license": "MIT",
                 "require": {
                     "php": ">=7.2",
-                    "psr/http-message": "^1.1 || ^2.0",
-                    "psr/http-factory": "^1.0"
+                    "psr/http-factory": "dev-remote-test-2026-10-07 as 1.1.0",
+                    "psr/http-message": "dev-remote-test-2026-10-07 as 2.0.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^7.5 || ^8.5 || ^9.4",
+                    "phpunit/phpunit": "^8.5.52",
                     "php-http/message-factory": "^1.0",
                     "php-http/psr7-integration-tests": "^1.0",
                     "http-interop/http-factory-tests": "^0.9",
@@ -18150,12 +18163,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/psr7-server.git",
-                    "reference": "398faab8effb3a2843fb512d7233a674215a8fde"
+                    "reference": "65d80408e2a6af42a838fbc8a3a8ef51dbe65f32"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/psr7-server/zipball/398faab8effb3a2843fb512d7233a674215a8fde",
-                    "reference": "398faab8effb3a2843fb512d7233a674215a8fde",
+                    "url": "https://api.github.com/repos/Training-Datasmith/psr7-server/zipball/65d80408e2a6af42a838fbc8a3a8ef51dbe65f32",
+                    "reference": "65d80408e2a6af42a838fbc8a3a8ef51dbe65f32",
                     "shasum": ""
                 },
                 "description": "Helper classes to handle PSR-7 server requests",
@@ -18163,11 +18176,11 @@
                 "require": {
                     "php": "^7.1 || ^8.0",
                     "psr/http-message": "^1.0 || ^2.0",
-                    "psr/http-factory": "^1.0"
+                    "psr/http-factory": "dev-remote-test-2026-10-07 as 1.1.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^7.0 || ^8.5 || ^9.3",
-                    "nyholm/psr7": "^1.3",
+                    "phpunit/phpunit": "^8.5.52",
+                    "nyholm/psr7": "dev-remote-test-2026-11-09 as 1.8.2",
                     "nyholm/nsa": "^1.1"
                 },
                 "autoload": {
@@ -22921,12 +22934,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/header-stamp.git",
-                    "reference": "d11406e156a39735395bc5ddffbe93a423fb3f71"
+                    "reference": "7ad7c27e48cbc4147811d9e2da8ea013220d97d7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/header-stamp/zipball/d11406e156a39735395bc5ddffbe93a423fb3f71",
-                    "reference": "d11406e156a39735395bc5ddffbe93a423fb3f71",
+                    "url": "https://api.github.com/repos/Training-Datasmith/header-stamp/zipball/7ad7c27e48cbc4147811d9e2da8ea013220d97d7",
+                    "reference": "7ad7c27e48cbc4147811d9e2da8ea013220d97d7",
                     "shasum": ""
                 },
                 "description": "Rewrite your file headers to add the license or to make them up-to-date",
@@ -22939,9 +22952,9 @@
                     "nikic/php-parser": "^4.10"
                 },
                 "require-dev": {
-                    "prestashop/php-dev-tools": "1.*",
+                    "prestashop/php-dev-tools": "^5",
                     "phpstan/phpstan": "^1.12",
-                    "phpunit/phpunit": "^8.5"
+                    "phpunit/phpunit": "^8.5.52"
                 },
                 "autoload": {
                     "psr-4": {
@@ -29272,12 +29285,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/smarty.git",
-                    "reference": "3ff7494863691c1bfbb9d9611aff3eb09471639c"
+                    "reference": "15848fab663487a8db8d793fd6d04f6fd6ecaad6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/smarty/zipball/3ff7494863691c1bfbb9d9611aff3eb09471639c",
-                    "reference": "3ff7494863691c1bfbb9d9611aff3eb09471639c",
+                    "url": "https://api.github.com/repos/Training-Datasmith/smarty/zipball/15848fab663487a8db8d793fd6d04f6fd6ecaad6",
+                    "reference": "15848fab663487a8db8d793fd6d04f6fd6ecaad6",
                     "shasum": ""
                 },
                 "description": "Smarty - the compiling PHP template engine",
@@ -29292,10 +29305,7 @@
                 },
                 "autoload": {
                     "psr-4": {
-                        "Smarty\\": "src/",
-                        "Smarty\\Block_Handler\\": "src/BlockHandler/",
-                        "Smarty\\Function_Handler\\": "src/FunctionHandler/",
-                        "Smarty\\Parse_Tree\\": "src/ParseTree/"
+                        "Smarty\\": "src/"
                     },
                     "files": [
                         "src/functions.php"
@@ -29344,12 +29354,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/html2text.git",
-                    "reference": "30e6ad8efcb92af88a1ab0b7ac258de338e80145"
+                    "reference": "816e0678e0afe3631a3b7a7413bb2b2c63a59b8c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/html2text/zipball/30e6ad8efcb92af88a1ab0b7ac258de338e80145",
-                    "reference": "30e6ad8efcb92af88a1ab0b7ac258de338e80145",
+                    "url": "https://api.github.com/repos/Training-Datasmith/html2text/zipball/816e0678e0afe3631a3b7a7413bb2b2c63a59b8c",
+                    "reference": "816e0678e0afe3631a3b7a7413bb2b2c63a59b8c",
                     "shasum": ""
                 },
                 "description": "A PHP script to convert HTML into a plain text format",
@@ -29360,7 +29370,7 @@
                     "ext-libxml": "*"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "^7.0|^8.0|^9.0",
+                    "phpunit/phpunit": "^8.5.52",
                     "phpstan/phpstan": "^1.9"
                 },
                 "autoload": {
@@ -34688,12 +34698,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/YUI-CSS-compressor-PHP-port.git",
-                    "reference": "8bc2871800558bddde64a2ca4e9fe12b1de37a4e"
+                    "reference": "32287131bfa43ded0ed5c24ee963ecd5f4f960c4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/YUI-CSS-compressor-PHP-port/zipball/8bc2871800558bddde64a2ca4e9fe12b1de37a4e",
-                    "reference": "8bc2871800558bddde64a2ca4e9fe12b1de37a4e",
+                    "url": "https://api.github.com/repos/Training-Datasmith/YUI-CSS-compressor-PHP-port/zipball/32287131bfa43ded0ed5c24ee963ecd5f4f960c4",
+                    "reference": "32287131bfa43ded0ed5c24ee963ecd5f4f960c4",
                     "shasum": ""
                 },
                 "description": "A PHP port of the YUI CSS compressor",
@@ -34704,7 +34714,7 @@
                 },
                 "require-dev": {
                     "cogpowered/finediff": "0.3.*",
-                    "phpunit/phpunit": "4.8.*"
+                    "phpunit/phpunit": "^8.5.52"
                 },
                 "autoload": {
                     "psr-4": {
@@ -35521,12 +35531,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/phpdotenv.git",
-                    "reference": "7a4e28f2dccd946429d0fad14eaa19800439908b"
+                    "reference": "6d63808d2cab55323f0e8f2c319f0815581f9f54"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/phpdotenv/zipball/7a4e28f2dccd946429d0fad14eaa19800439908b",
-                    "reference": "7a4e28f2dccd946429d0fad14eaa19800439908b",
+                    "url": "https://api.github.com/repos/Training-Datasmith/phpdotenv/zipball/6d63808d2cab55323f0e8f2c319f0815581f9f54",
+                    "reference": "6d63808d2cab55323f0e8f2c319f0815581f9f54",
                     "shasum": ""
                 },
                 "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
@@ -35536,14 +35546,14 @@
                     "ext-pcre": "*",
                     "graham-campbell/result-type": "^1.1.4",
                     "phpoption/phpoption": "^1.9.5",
-                    "symfony/polyfill-ctype": "^1.26",
-                    "symfony/polyfill-mbstring": "^1.26",
+                    "symfony/polyfill-ctype": "dev-remote-test-2026-10-07 as 1.33.0",
+                    "symfony/polyfill-mbstring": "dev-remote-test-2026-10-07 as 1.33.0",
                     "symfony/polyfill-php80": "^1.26"
                 },
                 "require-dev": {
                     "ext-filter": "*",
                     "bamarni/composer-bin-plugin": "^1.8.2",
-                    "phpunit/phpunit": "^8.5.34 || ^9.6.13 || ^10.4.2"
+                    "phpunit/phpunit": "^8.5.52 || ^9.6.33 || ^10.5.62"
                 },
                 "suggest": {
                     "ext-filter": "Required to use the boolean validator."
@@ -35610,12 +35620,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/portable-ascii.git",
-                    "reference": "7671a909020d1c6a25dcb2f6e65e8b1776eaa2f5"
+                    "reference": "1a1b5321f8297fd332a653c13b9880843d95c986"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/portable-ascii/zipball/7671a909020d1c6a25dcb2f6e65e8b1776eaa2f5",
-                    "reference": "7671a909020d1c6a25dcb2f6e65e8b1776eaa2f5",
+                    "url": "https://api.github.com/repos/Training-Datasmith/portable-ascii/zipball/1a1b5321f8297fd332a653c13b9880843d95c986",
+                    "reference": "1a1b5321f8297fd332a653c13b9880843d95c986",
                     "shasum": ""
                 },
                 "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
@@ -35624,7 +35634,7 @@
                     "php": ">=7.0.0"
                 },
                 "require-dev": {
-                    "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
+                    "phpunit/phpunit": "^8.5.52"
                 },
                 "suggest": {
                     "ext-intl": "Use Intl for transliterator_transliterate() support"
@@ -36137,12 +36147,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/php-cssjanus.git",
-                    "reference": "e468e9436b3c163c9df43e1b1f2beeff949bc03f"
+                    "reference": "4543138122f5a27d56c0a43afa2327d131f3c939"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/php-cssjanus/zipball/e468e9436b3c163c9df43e1b1f2beeff949bc03f",
-                    "reference": "e468e9436b3c163c9df43e1b1f2beeff949bc03f",
+                    "url": "https://api.github.com/repos/Training-Datasmith/php-cssjanus/zipball/4543138122f5a27d56c0a43afa2327d131f3c939",
+                    "reference": "4543138122f5a27d56c0a43afa2327d131f3c939",
                     "shasum": ""
                 },
                 "description": "Convert CSS stylesheets between left-to-right and right-to-left.",
@@ -36151,15 +36161,15 @@
                     "php": ">=7.4.0"
                 },
                 "require-dev": {
-                    "mediawiki/mediawiki-codesniffer": "50.0.0",
+                    "mediawiki/mediawiki-codesniffer": "50.0.1",
                     "mediawiki/mediawiki-phan-config": "0.20.0",
                     "php-parallel-lint/php-parallel-lint": "1.4.0",
                     "phpunit/phpunit": "10.5.63"
                 },
                 "autoload": {
-                    "psr-0": {
-                        "": "src/"
-                    }
+                    "classmap": [
+                        "src/"
+                    ]
                 }
             }
         },
