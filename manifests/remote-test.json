@@ -1,0 +1,536 @@
+{
+ "repos": [
+  {
+   "name": "auth",
+   "branch": "ai-training-20260418"
+  },
+  {
+   "name": "blockreassurance",
+   "branch": "ai-training-20260418"
+  },
+  {
+   "name": "blockwishlist",
+   "branch": "ai-training-20260418"
+  },
+  {
+   "name": "cache-1",
+   "branch": "ai-training-20260418"
+  },
+  {
+   "name": "classic-theme",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "clock",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "Codeception",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "CodingStandard",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "conflicts",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "contactform",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "container",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "container-interop",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "dashactivity",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "dashgoals",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "dashproducts",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "dashtrends",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "dev-tools",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "docs",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "email",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "event-dispatcher",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "extension-installer",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "flysystem-aws-s3-v3",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "flysystem-ftp",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "flysystem-google-cloud-storage",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "flysystem-local",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "flysystem-memory",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "flysystem-path-prefixing",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "flysystem-read-only",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "flysystem-sftp-v3",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "fuel",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "graphnvd3",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "Grid",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "gridhtml",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "gsitemap",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "http-client",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "http-factory",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "http-message",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "http-server-handler",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "http-server-middleware",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "hummingbird",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "jwt-framework",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "jwt-library",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "link",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "log",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "magento-zend-cache",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "magento-zend-db",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "magento-zend-pdf",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "Mailer",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "module-asserts",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "module-db",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "module-filesystem",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "module-phpbrowser",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "module-webdriver",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "oil",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "opencart",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "orm",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "oxideshop-db-views-generator",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "oxideshop-demodata-installer",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "oxideshop-doctrine-migration-wrapper",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "oxideshop-unified-namespace-generator",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "pagesnotfound",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "parser",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "pclzip",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "phpstan",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "polyfill-ctype",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "polyfill-intl-grapheme",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "polyfill-intl-icu",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "polyfill-intl-idn",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "polyfill-intl-normalizer",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "polyfill-mbstring",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "polyfill-php83",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "polyfill-php84",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "polyfill-php85",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "polyfill-uuid",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "productcomments",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "ps_banner",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "ps_bestsellers",
+   "branch": "remote-test-2026-10-07"
+  },
+  {
+   "name": "ps_brandlist",
+   "branch": "remote-test-2026-10-08"
+  },
+  {
+   "name": "ps_cashondelivery",
+   "branch": "remote-test-2026-10-08"
+  },
+  {
+   "name": "ps_categoryproducts",
+   "branch": "remote-test-2026-10-08"
+  },
+  {
+   "name": "ps_categorytree",
+   "branch": "remote-test-2026-10-08"
+  },
+  {
+   "name": "ps_checkpayment",
+   "branch": "remote-test-2026-10-08"
+  },
+  {
+   "name": "ps_contactinfo",
+   "branch": "remote-test-2026-10-08"
+  },
+  {
+   "name": "ps_crossselling",
+   "branch": "remote-test-2026-10-08"
+  },
+  {
+   "name": "ps_currencyselector",
+   "branch": "remote-test-2026-10-08"
+  },
+  {
+   "name": "ps_customeraccountlinks",
+   "branch": "remote-test-2026-10-08"
+  },
+  {
+   "name": "ps_customersignin",
+   "branch": "remote-test-2026-10-09"
+  },
+  {
+   "name": "ps_customtext",
+   "branch": "remote-test-2026-10-09"
+  },
+  {
+   "name": "ps_dataprivacy",
+   "branch": "remote-test-2026-10-09"
+  },
+  {
+   "name": "ps_emailalerts",
+   "branch": "remote-test-2026-10-09"
+  },
+  {
+   "name": "ps_emailsubscription",
+   "branch": "remote-test-2026-10-09"
+  },
+  {
+   "name": "ps_faviconnotificationbo",
+   "branch": "remote-test-2026-10-09"
+  },
+  {
+   "name": "ps_featuredproducts",
+   "branch": "remote-test-2026-10-09"
+  },
+  {
+   "name": "ps_googleanalytics",
+   "branch": "remote-test-2026-10-09"
+  },
+  {
+   "name": "ps_imageslider",
+   "branch": "remote-test-2026-10-09"
+  },
+  {
+   "name": "ps_languageselector",
+   "branch": "remote-test-2026-10-10"
+  },
+  {
+   "name": "ps_linklist",
+   "branch": "remote-test-2026-10-10"
+  },
+  {
+   "name": "ps_mainmenu",
+   "branch": "remote-test-2026-10-10"
+  },
+  {
+   "name": "ps_newproducts",
+   "branch": "remote-test-2026-10-10"
+  },
+  {
+   "name": "ps_searchbar",
+   "branch": "remote-test-2026-10-10"
+  },
+  {
+   "name": "ps_sharebuttons",
+   "branch": "remote-test-2026-10-10"
+  },
+  {
+   "name": "ps_shoppingcart",
+   "branch": "remote-test-2026-10-10"
+  },
+  {
+   "name": "ps_socialfollow",
+   "branch": "remote-test-2026-10-10"
+  },
+  {
+   "name": "ps_specials",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "ps_supplierlist",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "ps_themecusto",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "ps_viewedproduct",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "ps_wirepayment",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "psgdpr",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "rector",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "simple-cache",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statsbestcategories",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statsbestcustomers",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statsbestmanufacturers",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statsbestproducts",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statsbestsuppliers",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statsbestvouchers",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statscarrier",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statscatalog",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statscheckup",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statsdata",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statsforecast",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statsnewsletter",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statspersonalinfos",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statsproduct",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statsregistrations",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statssales",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statssearch",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "statsstock",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "SuiteTagsExtension",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "TCPDF",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "tFPDF",
+   "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "uri",
+   "branch": "remote-test-2026-11-08"
+  }
+ ]
+}
