@@ -3961,12 +3961,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/core.git",
-                    "reference": "d41b1db4e0285e4236bf45e65ff65903ac1af2d2"
+                    "reference": "6c61ad32a1a63028e8a08c7b1161e875d2253677"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/core/zipball/d41b1db4e0285e4236bf45e65ff65903ac1af2d2",
-                    "reference": "d41b1db4e0285e4236bf45e65ff65903ac1af2d2",
+                    "url": "https://api.github.com/repos/Training-Datasmith/core/zipball/6c61ad32a1a63028e8a08c7b1161e875d2253677",
+                    "reference": "6c61ad32a1a63028e8a08c7b1161e875d2253677",
                     "shasum": ""
                 },
                 "description": "FuelPHP 1.x Core",
@@ -3977,7 +3977,7 @@
                     "phpseclib/phpseclib": "^3.0.58",
                     "paragonie/sodium_compat": "^1.6",
                     "monolog/monolog": "^1.18 || ^2.0 || ^3.0",
-                    "michelf/php-markdown": "1.7.0"
+                    "michelf/php-markdown": "^1.9.1"
                 }
             }
         },
@@ -4125,12 +4125,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Training-Datasmith/fuel.git",
-                    "reference": "c25479260dfcda591ca86d9b022b7ae343e8c7ee"
+                    "reference": "3e576e9610d4243a0ff24e105d5961f30085271c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Training-Datasmith/fuel/zipball/c25479260dfcda591ca86d9b022b7ae343e8c7ee",
-                    "reference": "c25479260dfcda591ca86d9b022b7ae343e8c7ee",
+                    "url": "https://api.github.com/repos/Training-Datasmith/fuel/zipball/3e576e9610d4243a0ff24e105d5961f30085271c",
+                    "reference": "3e576e9610d4243a0ff24e105d5961f30085271c",
                     "shasum": ""
                 },
                 "description": "FuelPHP is a simple, flexible, community driven PHP 8.2+ application skeleton, based on the best ideas of other frameworks, with a fresh start!",
@@ -4138,7 +4138,6 @@
                 "require": {
                     "php": ">=8.2",
                     "composer/installers": "^2.3.0",
-                    "cweagans/composer-patches": "2.0.0",
                     "fuel/core": "dev-remote-test-2026-11-09 as 1.8.99",
                     "fuel/auth": "dev-ai-training-20260418 as 1.8.99",
                     "fuel/email": "dev-remote-test-2026-10-07 as 1.8.99",
@@ -4150,6 +4149,8 @@
                 },
                 "require-dev": {
                     "fuel/docs": "dev-remote-test-2026-10-07 as 1.8.99",
+                    "erusev/parsedown": "1.7.4",
+                    "mustache/mustache": "3.2.0",
                     "phpunit/phpunit": "11.5.57"
                 },
                 "suggest": {
@@ -4169,13 +4170,6 @@
                         "{$name}": [
                             "fuel/docs"
                         ]
-                    },
-                    "patches": {
-                        "fuel/core": {
-                            "PHP 8: default missing Content-Type header to empty string": "patches/fuel-core/php8-input-content-type.patch",
-                            "PHP 8.2: avoid deprecated static:: callable form in Security::clean": "patches/fuel-core/php8-security-callable.patch",
-                            "PHP 8: cast null request module before ucfirst in Presenter::forge": "patches/fuel-core/php8-presenter-module.patch"
-                        }
                     }
                 },
                 "minimum-stability": "stable"
