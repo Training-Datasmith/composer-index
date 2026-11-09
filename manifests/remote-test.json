@@ -543,6 +543,1002 @@
   {
    "name": "uri",
    "branch": "remote-test-2026-11-08"
+  },
+  {
+   "name": "phpunit",
+   "branch": "remote-test-2026-09-21"
+  },
+  {
+   "name": "assert",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "phpunit-bridge",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "credis",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "runtime",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Mink",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "contracts",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "http_build_url",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "l5-repository",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "pdfparser",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "upload",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Archive_Tar",
+   "branch": "remote-test-2026-09-12"
+  },
+  {
+   "name": "Behat",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "phpstan-deprecation-rules",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "phpstan-phpunit",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "phpstan-strict-rules",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "mockery",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "PHP_CodeSniffer",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Checkout-PHP-SDK",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "event-manager",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Transliterator",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "cache-2",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "lexer",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "math",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "JShrink",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "html5-php",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "promises",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "psr7",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "markdown",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "PHP-Parser",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "smarty",
+   "branch": "remote-test-2026-09-16"
+  },
+  {
+   "name": "cron-expression",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "jsonlint",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "ca-bundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "decimal",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "header-stamp",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "html2text",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "php-encryption",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "password_compat",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "php-cssjanus",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "php-mb-helpers",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "psr7-server",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "YUI-CSS-compressor-PHP-port",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "portable-ascii",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "svg-sanitizer",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "phpdotenv",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "uri-template",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laravel-nestedset",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "purify",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "ui",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "composer",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "composer-dependency-version-audit-plugin",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "event-loop",
+   "branch": "remote-test-2026-09-15"
+  },
+  {
+   "name": "less.php",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "lex",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "lightncandy",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "stomp-php",
+   "branch": "remote-test-2026-08-31"
+  },
+  {
+   "name": "php-svg",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "psr7-1",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "semver",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Faker",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Twig",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "FOSJsRoutingBundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "webpack-encore-bundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "flex",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "php-redis-session-abstract",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "psr-http-message-bridge",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "TwigExtra",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "phpdoc-parser",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "phpstan-webmozart-assert",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "CssToInlineStyles",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "phpstan-symfony",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "collections",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "FastRoute",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "jwt",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "MinkBrowserKitDriver",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "MinkSelenium2Driver",
+   "branch": "remote-test-2026-09-18"
+  },
+  {
+   "name": "inflector",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "aes-key-wrap",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "class-map-generator",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "yii2-composer",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "sanctum",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "tinker",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "vfsStream",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "dbal",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "FPDI",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "PHP-SQL-Parser",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "emogrifier",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "zxcvbn-php",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "image",
+   "branch": "remote-test-2026-09-17"
+  },
+  {
+   "name": "php-cors",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "duo_universal_php",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "lessphp",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "magento-zf-duo_api_php",
+   "branch": "remote-test-2026-09-13"
+  },
+  {
+   "name": "scssphp",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "persistence",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "uuid",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "dompdf",
+   "branch": "remote-test-2026-09-20"
+  },
+  {
+   "name": "guzzle-1",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "wordpress-develop",
+   "branch": "remote-test-2026-08-31"
+  },
+  {
+   "name": "installers",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "KnpMenu",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "inky-extra",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "string-extra",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "intl-extra",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "dynamic-forms",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "twig-php-syntax",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "TypeResolver",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "psalm",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "cakephp-codesniffer",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "SyliusMailerBundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "cssinliner-extra",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "PagerfantaBundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "ps_facetedsearch",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "LexikJWTAuthenticationBundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "mercure-bundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "yii2",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "RandomLib",
+   "branch": "remote-test-2026-09-15"
+  },
+  {
+   "name": "SyliusThemeBundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "oxideshop_composer_plugin",
+   "branch": "remote-test-2026-09-19"
+  },
+  {
+   "name": "Pagerfanta",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "mpdf",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "aimeos-core",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "DoctrineBundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "migrations",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "data-fixtures",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laravel-dompdf",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "aws-sdk-php",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "circuit-breaker",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "pusher-http-php",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "zencart",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "KnpMenuBundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "ReflectionDocBlock",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-escaper",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "common",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "EmailValidator",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "commonmark",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "html-to-markdown",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-diactoros",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Registry",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-stdlib",
+   "branch": "remote-test-2026-09-15"
+  },
+  {
+   "name": "halite",
+   "branch": "remote-test-2026-09-14"
+  },
+  {
+   "name": "ai-admin-jqadm",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "ai-admin-jsonadm",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "ai-controller-frontend",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "ai-controller-jobs",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "DoctrineMigrationsBundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "ps_distributionapiclient",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "prophecy",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "zugferd",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "security-acl",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "MtHaml",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "markdown-extra",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "oauth2-server",
+   "branch": "remote-test-2026-09-17"
+  },
+  {
+   "name": "laminas-httphandlerrunner",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "SyliusGridBundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "TwigHooks",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-code",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-eventmanager",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "magento-composer-installer",
+   "branch": "remote-test-2026-09-13"
+  },
+  {
+   "name": "ai-client-html",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "ai-client-jsonapi",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "DoctrineMigrationsExtraBundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "json-schema",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "PHP-CS-Fixer",
+   "branch": "remote-test-2026-09-10"
+  },
+  {
+   "name": "prophecy-phpunit",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "twig-extra-bundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "SyliusResourceBundle",
+   "branch": "remote-test-2026-09-15"
+  },
+  {
+   "name": "proxy-manager-lts",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-server",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "ai-cms-grapesjs",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Carbon",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Cm_Cache_Backend_File",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Cm_Cache_Backend_Redis",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "predis",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Gaufrette",
+   "branch": "remote-test-2026-09-18"
+  },
+  {
+   "name": "GeoIP2-php",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "PhpSpreadsheet",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "mime-type-detection",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "phpseclib",
+   "branch": "remote-test-2026-10-04"
+  },
+  {
+   "name": "Mobile-Detect",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "autoload",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "minify",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "ps_apiresources",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "graphql-php",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "mustache.php",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "opensearch-php",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "opensearch-php-dsl",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "swagger-php",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Slim",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "state",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "drupal",
+   "branch": "remote-test-2026-08-31"
+  },
+  {
+   "name": "laminas-servicemanager",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "DoctrineExtensions",
+   "branch": "remote-test-20260830"
+  },
+  {
+   "name": "phpstan-doctrine",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "CodeIgniter4",
+   "branch": "remote-test-2026-08-31"
+  },
+  {
+   "name": "KnpGaufretteBundle",
+   "branch": "remote-test-2026-09-14"
+  },
+  {
+   "name": "Laravel-Excel",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "flysystem",
+   "branch": "remote-test-2026-09-20"
+  },
+  {
+   "name": "php-amqplib",
+   "branch": "remote-test-20260831"
+  },
+  {
+   "name": "socialite",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "mcrypt_compat",
+   "branch": "remote-test-2026-08-31"
+  },
+  {
+   "name": "visitor",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "ai-admin-graphql",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "magento-coding-standard",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "cphalcon",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "doctrine-orm",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-di",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-validator",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-filter",
+   "branch": "remote-test-2026-09-19"
+  },
+  {
+   "name": "laminas-view",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-permissions-acl",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Resource",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "StofDoctrineExtensionsBundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "LiipImagineBundle",
+   "branch": "remote-test-2026-09-11"
+  },
+  {
+   "name": "flysystem-bundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "monolog",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-uri",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-i18n",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "symfony",
+   "branch": "remote-test-2026-09-12"
+  },
+  {
+   "name": "SyliusFixturesBundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "framework",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "prompts",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "serializable-closure",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "termwind",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "testbench-core",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "collision",
+   "branch": "remote-test-2026-08-31"
+  },
+  {
+   "name": "pest",
+   "branch": "remote-test-2026-09-18"
+  },
+  {
+   "name": "pint",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "magento2-functional-testing-framework",
+   "branch": "remote-test-2026-09-20"
+  },
+  {
+   "name": "oxideshop_ce",
+   "branch": "remote-test-2026-08-31"
+  },
+  {
+   "name": "laminas-http",
+   "branch": "remote-test-2026-09-15"
+  },
+  {
+   "name": "TranslationToolsBundle",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "Sylius",
+   "branch": "remote-test-2026-08-31"
+  },
+  {
+   "name": "ai-laravel",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "boost",
+   "branch": "remote-test-2026-09-18"
+  },
+  {
+   "name": "laravel-breadcrumbs",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laravel-responsecache",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "pest-plugin-laravel",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-feed",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-modulemanager",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laminas-session",
+   "branch": "remote-test-2026-08-31"
+  },
+  {
+   "name": "PrestaShop",
+   "branch": "remote-test-2026-09-13"
+  },
+  {
+   "name": "aimeos-laravel",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "laravel-debugbar",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
+   "name": "bagisto",
+   "branch": "remote-test-2026-08-31"
+  },
+  {
+   "name": "shopware",
+   "branch": "remote-test-2026-08-31"
+  },
+  {
+   "name": "magento-zf-captcha",
+   "branch": "remote-test-2026-09-21"
+  },
+  {
+   "name": "magento2",
+   "branch": "remote-test-2026-11-09"
   }
  ]
 }

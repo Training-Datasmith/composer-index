@@ -313,6 +313,7 @@ try {
     verify_core_index_entry($repo_root);
     verify_fuel_index_entry($repo_root);
     verify_cakephp_index_entry($repo_root);
+    verify_manifest_index_references($repo_root);
 } catch (Throwable $e) {
     $failures[] = 'fatal: ' . $e->getMessage();
 }
@@ -415,6 +416,73 @@ function verify_fuel_index_entry(string $repo_root): void
         is_array($entry['dist'] ?? null) && ($entry['dist']['reference'] ?? '') === $expected_sha,
         'fuel/fuel dist.reference is a29c9687'
     );
+}
+
+function verify_manifest_index_references(string $repo_root): void
+{
+    $manifest_path = $repo_root . '/manifests/remote-test.json';
+    $packages_path = $repo_root . '/packages.json';
+    if (!is_file($manifest_path) || !is_file($packages_path)) {
+        throw new RuntimeException('manifest or packages.json missing for manifest reference check');
+    }
+
+    /** @var array{repos: list<array{name: string, branch: string}>} $manifest */
+    $manifest = json_decode((string) file_get_contents($manifest_path), true, 512, JSON_THROW_ON_ERROR);
+    /** @var array{packages: array<string, array<string, array<string, mixed>>>} $index */
+    $index = json_decode((string) file_get_contents($packages_path), true, 512, JSON_THROW_ON_ERROR);
+
+    $by_repo = [];
+    foreach ($index['packages'] as $versions) {
+        foreach ($versions as $version => $entry) {
+            $url = $entry['source']['url'] ?? '';
+            if (!is_string($url) || !preg_match('#/([^/]+)\\.git$#', $url, $matches)) {
+                continue;
+            }
+            $by_repo[$matches[1]][$version] = $entry;
+        }
+    }
+
+    $mismatches = [];
+    foreach ($manifest['repos'] as $row) {
+        $name = $row['name'];
+        $branch = $row['branch'];
+        $version = 'dev-' . $branch;
+        $entry = $by_repo[$name][$version] ?? null;
+        if (!is_array($entry)) {
+            $mismatches[] = "$name $branch: missing packages.json entry for $version";
+            continue;
+        }
+        $tip = git_ls_remote_branch_tip($name, $branch);
+        $ref = $entry['source']['reference'] ?? '';
+        if ($ref !== $tip) {
+            $mismatches[] = "$name $branch: index $ref !== remote $tip";
+        }
+    }
+
+    if ($mismatches !== []) {
+        throw new RuntimeException("manifest reference mismatches:\n" . implode("\n", array_slice($mismatches, 0, 20))
+            . (count($mismatches) > 20 ? "\n... and " . (count($mismatches) - 20) . " more" : ''));
+    }
+}
+
+function git_ls_remote_branch_tip(string $repository, string $branch): string
+{
+    $url = 'https://github.com/Training-Datasmith/' . $repository . '.git';
+    $ref = 'refs/heads/' . $branch;
+    $result = run_cmd_capture(['git', 'ls-remote', '--heads', $url, $ref]);
+    if ($result['exit_code'] !== 0) {
+        throw new RuntimeException("git ls-remote failed for $repository $branch: " . trim($result['stderr']));
+    }
+    foreach (preg_split("/\r\n|\n|\r/", trim($result['stdout'])) ?: [] as $line) {
+        if ($line === '') {
+            continue;
+        }
+        if (preg_match('/^([0-9a-f]{40})\s+' . preg_quote($ref, '/') . '$/', $line, $matches)) {
+            return $matches[1];
+        }
+    }
+
+    throw new RuntimeException("remote branch not found for $repository $branch");
 }
 
 function verify_cakephp_index_entry(string $repo_root): void
