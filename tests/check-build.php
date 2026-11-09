@@ -312,6 +312,7 @@ try {
     verify_chronos_index_entry($repo_root);
     verify_core_index_entry($repo_root);
     verify_fuel_index_entry($repo_root);
+    verify_cakephp_index_entry($repo_root);
 } catch (Throwable $e) {
     $failures[] = 'fatal: ' . $e->getMessage();
 }
@@ -413,6 +414,33 @@ function verify_fuel_index_entry(string $repo_root): void
     assert_true(
         is_array($entry['dist'] ?? null) && ($entry['dist']['reference'] ?? '') === $expected_sha,
         'fuel/fuel dist.reference is a29c9687'
+    );
+}
+
+function verify_cakephp_index_entry(string $repo_root): void
+{
+    $path = $repo_root . '/packages.json';
+    if (!is_file($path)) {
+        throw new RuntimeException('packages.json missing for cakephp index check');
+    }
+
+    /** @var array{packages: array<string, array<string, array<string, mixed>>>} $data */
+    $data = json_decode((string) file_get_contents($path), true, 512, JSON_THROW_ON_ERROR);
+    $expected_sha = '15261676cbfdc3d68d349e5011fb977e0f3df3bf';
+    $version = 'dev-remote-test-2026-11-09';
+
+    if (!isset($data['packages']['cakephp/cakephp'][$version])) {
+        throw new RuntimeException('cakephp/cakephp missing dev-remote-test-2026-11-09 in packages.json');
+    }
+
+    $entry = $data['packages']['cakephp/cakephp'][$version];
+    assert_true(
+        is_array($entry['source'] ?? null) && ($entry['source']['reference'] ?? '') === $expected_sha,
+        'cakephp/cakephp source.reference is 15261676'
+    );
+    assert_true(
+        is_array($entry['dist'] ?? null) && ($entry['dist']['reference'] ?? '') === $expected_sha,
+        'cakephp/cakephp dist.reference is 15261676'
     );
 }
 

@@ -17,6 +17,10 @@
    "branch": "ai-training-20260418"
   },
   {
+   "name": "cakephp",
+   "branch": "remote-test-2026-11-09"
+  },
+  {
    "name": "classic-theme",
    "branch": "remote-test-2026-10-07"
   },
